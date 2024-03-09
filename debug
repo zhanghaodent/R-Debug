@@ -1,0 +1,6 @@
+报错：Error in Ops.data.frame(guide_loc, panel_loc) : 
+  ‘==’ only defined for equally-sized data frames
+
+解决：更新patchwork包
+remove.packages("patchwork")
+install.packages("patchwork")
