@@ -4,3 +4,14 @@
 解决：更新patchwork包
 remove.packages("patchwork")
 install.packages("patchwork")
+
+##更新Matrix包
+以管理员身份打开RStudio
+library()##看看每个路径有哪些包
+detach("package:Matrix",unload = T)
+remove.packages("Matrix",lib = "C:\\Program Files\\R\\R-4.3.0\\library")
+remove.packages("SeuratObject")
+install.packages("SeuratObject")
+
+
+
